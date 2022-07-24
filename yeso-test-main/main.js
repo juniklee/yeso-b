@@ -190,7 +190,7 @@ function onWindowResize() {
 
 function animate() {
   if(water) water.material.uniforms[ 'time' ].value += 0.7 / 60.0;
-	if(fbxLogo) fbxLogo.rotation.z += 0.005; // FBX Loader 가 로드되는 시간이 있기 때문에(비동기) fbxLogo 값이 null 이 아닐때 프로퍼티 접근
+	if(fbxLogo) fbxLogo.rotation.y += 0.005; // FBX Loader 가 로드되는 시간이 있기 때문에(비동기) fbxLogo 값이 null 이 아닐때 프로퍼티 접근
 
 	renderer.render( scene, camera );
 	requestAnimationFrame(animate); 
