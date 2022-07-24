@@ -8,7 +8,7 @@ import './Water'
 
 import expo from './public/img/expo.jpg'
 import back from './public/img/back.png'
-import logo from './public/fbx/Test_Logo.fbx'
+import logo from './public/fbx/test.fbx'
 import waternormals from './public/img/waternormals.jpg'
 import floorImg from './public/img/floor1.jpg'
 
